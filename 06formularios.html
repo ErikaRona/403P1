@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formularios</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center><h1><b>Formularios en html</b></h1></center><hr>
+
+<form action="06formularios.html" method="get" enctype="multipart/form-data" >
+
+   <center><table border width>
+<tr>
+
+<td><h3>Campo de Texto</h3></td>
+
+<td><input type="text" name="nombre" id="nombre" value="" placeholder="Escribe tu nombre" maxlength="30"></td>
+
+</tr>
+ <tr>
+
+<td>Campo contraseña</td>
+<td><input type="password" name="nombre" id="nombre" value="" placeholder="Ingresa contraseña"></td>
+ </tr>
+<tr>
+ <td>Casilla de verificación</td>
+ <td><input type="checkbox" name="check" id="nombre" value="" checked></td>
+  </tr>
+
+
+  <tr>
+    <td>Boton Opcion</td>
+    <td><input type="radio" name="color" id="nombre" value="" > 
+    <br>
+<input type="radio" name="color" id="nombre" value="" >
+    <br>
+    <input type="radio" name="color" id="nombre" value="" ><br>
+    </td>
+   </tr>
+
+   <tr>
+
+    <td>Campo Oculto</td>
+
+    <td>
+        <input type="hidden" name="Oculto" id="nombre" value="html" ><br>
+    </td>
+
+   </tr>
+   
+   <tr>
+
+    <td>Boton Enviar</td>
+
+    <td>
+        <input type="submit" name="Enviar"  value="Enviar" ><br>
+    </td>
+
+   </tr>
+   
+   <tr>
+
+    <td>Boton Reset</td>
+
+    <td>
+        <input type="reset" name="Borrar"  value="Borrar" ><br>
+    </td>
+
+   </tr>
+
+
+   <tr>
+
+    <td>Area de texto</td>
+
+    <td>
+        <textarea name="area" id="" cols="30" rows="10"></textarea><br>
+    </td>
+
+   </tr>
+
+
+
+   <tr>
+
+    <td>lista despegable (COMBOBOX)</td>
+
+    <td>
+       <select name="Princesas" id="Princesas">
+        <option value="cenicienta">cenicienta</option>
+        <option value="merida"selected>merida</option>
+        <option value="bella">bella</option>
+       </select>
+    </td>
+
+   </tr>
+
+   <tr>
+
+    <td>fieldset</td>
+
+    <td>
+     <fieldset>
+        <legend>DATOS</legend>
+        <label for="">nombre</label>
+        <input type="text" required>
+     </fieldset>
+    </td>
+
+   </tr>
+
+   <tr>
+
+    <td>DATALIST</td>
+
+    <td>
+     <input type="text" list="Princesas">
+
+<datalist id="Princesas">
+    <option value="cenicienta">cenicienta</option>
+    <option value="merida">merida</option>
+    <option value="bella">bella</option>
+
+</datalist>   
+ </td>
+  </tr>
+
+
+  <tr>
+
+    <td>CAMPO EMAIL </td>
+
+    <td>
+        <input type="email">
+    </td>
+
+   </tr>
+   <tr>
+
+    <td>CAMPO NUMERICO</td>
+
+    <td>
+        <input type="number">
+    </td>
+
+   </tr>
+   <tr>
+
+    <td>CAMPO URL</td>
+
+    <td>
+        <input type="url">
+    </td>
+
+   </tr>
+
+<tr>
+    <td>Campo fecha</td>
+<td><input type="date"> </td>
+
+</tr>
+<tr>
+    <td>CAMPO FECHA Y HORA</td>
+    <td><input type="datetime"></td>
+</tr>    
+
+   <tr>
+    <td>campo hora</td>
+    <td><input type="time"></td>
+</tr>
+<tr>
+    <td>campo semana</td>
+    <td><input type="week"></td>
+</tr>
+
+<td>campo mes</td>
+<td><input type="month"></td>
+</tr>
+   
+
+<tr>
+    <td>boton generico</td>
+    <td><button>hola</button></td>
+</tr>
+
+<tr>
+    <td>BARRA DE PROGRESO</td>
+
+<td><progress></progress></td>    
+</tr>
+
+<tr>
+    <td>Meter</td>
+
+    <td><meter value=""></meter></td>
+</tr>
+
+
+<tr>
+    <td> buscar </td>
+
+    <td>
+        <input type="search" >
+    </td>
+    
+</tr>
+
+<tr>
+    <td> telefono </td>
+
+    <td>
+        <input type="tel" >
+    </td>
+    
+</tr>
+
+
+<tr>
+    <td> rango</td>
+
+    <td>
+        <input type="range"  >
+    </td>
+    
+</tr>
+
+<tr>
+    <td>Color</td>
+    <td><input type="color"></td>
+</tr>
+
+<tr>
+    <td>CAMPO ARCHIVO</td>
+
+    <td><input type="file"  ></td>
+</tr>
+
+
+
+    </table>
+</center> 
+</form>
+
+</body>
+</html>

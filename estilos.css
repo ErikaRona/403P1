@@ -1,0 +1,42 @@
+*{
+
+margin: 0px;
+padding: 0px;
+
+}
+
+body{
+    background: #ffcfff;
+}
+
+a{
+    display: block;
+    background: #f2c6f7;
+     color: #000000;
+     font-size: 20px;
+     text-align: justify;
+     width: 300px;
+     padding: 5px;
+     text-decoration: none;
+     margin: 10px;
+     border: 2px solid #870ef1;
+     border-radius: 10px;
+     box-shadow: 0 0 10px #f0a8d4;
+
+}
+a:hover{
+    display: block;
+    background: rgb(236, 155, 213);
+     color:black;
+     font-size: 20px;
+     text-align:right;
+     width: 300px;
+     padding: 5px;
+     text-decoration: none;
+     margin: 10px;
+     border: 2px solid red;
+     border-radius: 10px;
+     box-shadow: 0 0 10px black;  
+     transform: scale(1.1);
+     transition: 1s all ease;
+}
